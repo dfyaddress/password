@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_note"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="1dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/tab_padding"
+        android:background="@color/clr_normal">
+
+        <TextView
+            android:id="@+id/tv_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="腾讯QQ  "
+            android:maxLines="1"
+            android:padding="@dimen/tab_padding"
+            android:ellipsize="end"
+            android:textColor="@color/tx_cl"
+            android:textSize="@dimen/tx_b" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tv_list_title"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_list_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1814366463"
+                android:maxLines="1"
+                android:padding="@dimen/tab_padding"
+                android:ellipsize="end"
+                android:textColor="@color/tx_cl"
+                android:textSize="@dimen/tx_s" />
+            <TextView
+                android:id="@+id/tv_list_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2018.9.13"
+                android:maxLines="1"
+                android:padding="@dimen/tab_padding"
+                android:ellipsize="end"
+                android:textColor="@color/tx_cl"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/tx_s" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

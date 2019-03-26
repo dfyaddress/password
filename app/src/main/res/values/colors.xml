@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB800</color>
+    <color name="colorPrimaryDark">#FFB800</color>
+    <color name="colorAccent">#FFB800</color>
+    <color name="tx_cl">#424242</color>
+
+    <color name="background">#d6d0d0</color>
+    <color name="clr_normal">#FFFFFF</color>
+    <color name="clr_pressed">#FFB800</color>
+</resources>
